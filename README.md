@@ -104,30 +104,31 @@ http://localhost:3000
 
 ### Compute Distribution
 
-POST /api/v1/distributions
+`POST /api/v1/distributions`
 
 Example:
-
+```json
 {
   "distribution": "Binomial",
   "n": 10,
   "p": 0.5,
   "x": 3
 }
+```
 
 ### Generate Samples
 
-POST /api/v1/sampling
+`POST /api/v1/sampling`
 
 Example:
-
+```json
 {
   "distribution": "Normal",
   "mu": 0,
   "sd": 1,
   "N": 1000
 }
-
+```
 # Author
 
 Yosshio Del Angel Zapata
